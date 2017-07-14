@@ -1,0 +1,28 @@
+{
+  "name": "mp091689/turbosms",
+  "description": "Package for TurboSms gateway based on SQL connection",
+  "type": "library",
+  "keywords": [
+    "turbosms",
+    "sms gateway",
+    "sms"
+  ],
+  "authors": [
+    {
+      "name": "Mykyta",
+      "email": "mp091689@gmail.com"
+    }
+  ],
+  "homepage": "...",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": [
+      {
+        "mp091689\\": "src"
+      }
+    ]
+  }
+}
