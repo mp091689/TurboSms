@@ -1,18 +1,15 @@
 <?php
 
-namespace mp091689;
+namespace Mp091689\TurboSms;
 
 
 /**
  * Class TurboSms
- *
- * @package mp091689
+ * @package Mp091689\TurboSms
  */
 class TurboSms
 {
-    /**
-     * @var EntityManager $em
-     */
+
     private $em;
 
     /**

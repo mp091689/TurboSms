@@ -1,10 +1,11 @@
 <?php
 
-namespace mp091689;
+namespace Mp091689\SmsEntity;
+
 
 /**
  * Class SmsEntity
- * @package mp091689
+ * @package Mp091689\SmsEntity
  */
 class SmsEntity
 {

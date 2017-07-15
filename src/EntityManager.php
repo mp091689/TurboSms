@@ -1,12 +1,13 @@
 <?php
 
-namespace mp091689;
+namespace Mp091689\EntityManager;
 
 use PDO;
 
+
 /**
  * Class EntityManager
- * @package mp091689
+ * @package Mp091689\EntityManager
  */
 class EntityManager
 {

@@ -1,13 +1,14 @@
 <?php
 
-namespace mp091689;
+namespace Mp091689\Db;
 
 
 use PDO;
 
+
 /**
  * Class Db
- * @package mp091689
+ * @package Mp091689\Db
  */
 class Db
 {
