@@ -1,14 +1,13 @@
 <?php
 
-namespace Mp091689\Db;
+namespace Mp091689\TurboSms;
 
 
 use PDO;
 
-
 /**
  * Class Db
- * @package Mp091689\Db
+ * @package Mp091689\TurboSms
  */
 class Db
 {

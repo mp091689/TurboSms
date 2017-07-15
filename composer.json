@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Mp091689\\": "src"
+      "Mp091689\\TurboSms\\": "src/"
     }
   }
 }

@@ -1,13 +1,13 @@
 <?php
 
-namespace Mp091689\EntityManager;
+namespace Mp091689\TurboSms;
 
 use PDO;
 
 
 /**
  * Class EntityManager
- * @package Mp091689\EntityManager
+ * @package Mp091689\TurboSms
  */
 class EntityManager
 {
