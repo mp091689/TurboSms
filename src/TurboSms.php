@@ -1,6 +1,6 @@
 <?php
 
-namespace mp091689\TurboSms;
+namespace mp091689;
 
 
 include 'Db.php';
@@ -9,7 +9,7 @@ include 'EntityManager.php';
 
 /**
  * Class TurboSms
- * @package mp091689\TurboSms
+ * @package mp091689
  */
 class TurboSms
 {

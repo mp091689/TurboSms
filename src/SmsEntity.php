@@ -1,8 +1,11 @@
 <?php
 
-namespace mp091689\TurboSms;
+namespace mp091689;
 
-
+/**
+ * Class SmsEntity
+ * @package mp091689
+ */
 class SmsEntity
 {
     /**
