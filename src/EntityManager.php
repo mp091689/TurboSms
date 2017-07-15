@@ -105,7 +105,7 @@ class EntityManager
         $stmt = $this->db->prepare($sql);
 
         if ($stmt->execute()) {
-            return $stmt->fetchAll(PDO::FETCH_CLASS, 'mp091689\TurboSms\SmsEntity');
+            return $stmt->fetchAll(PDO::FETCH_CLASS, SmsEntity::class);
         }
         return null;
     }
@@ -119,7 +119,7 @@ class EntityManager
         $sql = "SELECT * FROM " . $this->table . " WHERE id = " . $id;
         $stmt = $this->db->prepare($sql);
         if ($stmt->execute()) {
-            return $this->db->query($sql)->fetchObject('mp091689\TurboSms\SmsEntity');
+            return $this->db->query($sql)->fetchObject(SmsEntity::class);
         }
         return null;
     }
