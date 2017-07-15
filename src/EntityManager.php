@@ -174,7 +174,7 @@ class EntityManager
     {
         if ($page > 1) {
             $factor = $page - 1;
-            $offset = $limit * $factor;
+            $offset = $page * $factor;
             return ' OFFSET ' . $offset;
         }
         return '';

@@ -3,10 +3,6 @@
 namespace mp091689;
 
 
-include 'Db.php';
-include 'SmsEntity.php';
-include 'EntityManager.php';
-
 /**
  * Class TurboSms
  * @package mp091689
